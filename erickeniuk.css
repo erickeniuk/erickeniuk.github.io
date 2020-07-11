@@ -12,7 +12,8 @@
 /*desktop*/
 @media only screen and (min-width: 1200px) {
     body {
-      background-color: #474a4ebd;
+      background-color: #4f5155bd;
+      backgroun
       color: #0053a0;
       flex: 80%;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
