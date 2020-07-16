@@ -1,15 +1,150 @@
 <!DOCTYPE html>
-<html lang = en>
-    <head>
-            <title>Eric Keniuk</title>
-            <link rel="stylesheet" href="erickeniuk.css">
-            <div>
-            <link rel="stylesheet" href="https://github.com/erickeniuk/phoenix_schools">
-            </div>
-    </head>
-    <body>
-        <h1>Eric Keniuk's GitHub Website</h1>
-        Page 2!
-        <a href="index.html"> Back home!</a>
-    </body>
+<html lang="en">
+<head>
+<title>Eric Keniuk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+img {
+  border-radius: 50%;
+  width: 70%;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #4f88ae;
+  color: white;
+}
+
+a {
+    color: #4f88ae
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 20%;
+  background-color: #4f88ae;
+  padding: 20px;
+  text-align: right;
+}
+
+/* Main column */
+.main {   
+  flex: 80%;
+  background-color: rgb(248, 244, 244);
+  padding: 20px;
+}
+
+.block {
+    border-top: 2px #4f88ae;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Eric Keniuk</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <h4>Graduated December 2019</h4>
+  </div>
+  <div class="main">
+    <div class="block">
+        <h2>Master of Arts in Applied Economics</h2>
+        <h4>University of Alabama • Tuscaloosa, AL • Concentration in Data Analytics • GPA: 4.0</h4>
+        <br>
+        <h2>Bachelor of Arts in Mathematics and Economics</h2>
+        <h4>University of Alabama • Tuscaloosa, AL • Concentration in Statistics • GPA: 3.86
+        <br>
+    </div>
+</div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
 </html>
