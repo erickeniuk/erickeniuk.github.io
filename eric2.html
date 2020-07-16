@@ -71,7 +71,7 @@ a {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 10%;
+  flex: 20%;
   background-color: #4f88ae;
   padding: 10px;
   text-align: right;
@@ -79,9 +79,9 @@ a {
 
 /* Main column */
 .main {   
-  flex: 90%;
+  flex: 80%;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 10px;
 }
 
 hr.blue {
@@ -102,6 +102,14 @@ hr.blue {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .side {
+      flex: 10%;
+  }
+
+  .main {
+    flex: 90%;
   }
 }
 
@@ -128,7 +136,6 @@ hr.blue {
 
 <div class="row">
   <div class="side">
-      <br>
       <br>
       <br>
       <br>
