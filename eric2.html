@@ -65,26 +65,26 @@ a {
 /* Column container */
 .row {  
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 20%;
+  flex: 10%;
   background-color: #4f88ae;
-  padding: 20px;
+  padding: 10px;
   text-align: right;
 }
 
 /* Main column */
 .main {   
-  flex: 80%;
-  background-color: rgb(248, 244, 244);
+  flex: 90%;
+  background-color: #ffffff;
   padding: 20px;
 }
 
-.block {
+hr.blue {
     border-top: 2px #4f88ae;
 }
 
@@ -123,7 +123,6 @@ a {
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="#">Link</a>
-  <a href="#">Link</a>
   <a href="#" class="right">Link</a>
 </div>
 
@@ -132,12 +131,13 @@ a {
       <h4>Graduated December 2019</h4>
   </div>
   <div class="main">
-    <div class="block">
+        <h2>Education</h2>
+        <hr class="blue"> 
         <h2>Master of Arts in Applied Economics</h2>
-        <h4>University of Alabama • Tuscaloosa, AL • Concentration in Data Analytics • GPA: 4.0</h4>
+        <h5>University of Alabama • Tuscaloosa, AL • Concentration in Data Analytics • GPA: 4.0</h5>
         <br>
         <h2>Bachelor of Arts in Mathematics and Economics</h2>
-        <h4>University of Alabama • Tuscaloosa, AL • Concentration in Statistics • GPA: 3.86
+        <h5>University of Alabama • Tuscaloosa, AL • Concentration in Statistics • GPA: 3.86</h5>
         <br>
     </div>
 </div>
