@@ -7,16 +7,20 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       text-align: center;
       vertical-align: middle;
+      justify-content: center;
+      padding: 30px;
     }
   }
 /* desktop */
 @media only screen and (min-width: 1200px) {
     body {
-      background-color: #82c471;
-      color: #0053a0;
+      background-color: #9398ab;
+      color: #1a61a4;
       flex: 80%;
+      padding: 30px;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       text-align: center;
       vertical-align: middle;
+      justify-content: center;
     }
   }
