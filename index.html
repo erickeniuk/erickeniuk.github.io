@@ -144,14 +144,24 @@ a {
   </div>
 
   <div class="main">
+
+  <style scoped>
+    @import "style.css";
+  </style>
+
   <h2>Cutting edge data analytics, deployable in SQL, Python (Pandas, NumPy, etc.), and R (including lightning fast data.table)</h2>
   <div class="w3-content w3-display-container">
-  <img class="mySlides" title="Spatial Joining and Mapping of Data" src="SpatialMap.png" style="width:95%">
-  <img class="mySlides" title="Quick Data Aggregation" src="DataAgg.png" style="width:95%">
-  <img class="mySlides" title="Extensive Resume" src="ResumeImage.png" style="width:95%">
-  <img class="mySlides" title="Master's Thesis on Real Estate Investor Effects on Elementary Students" src="Thesis.png" style="width:95%">
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <img class="mySlides w3-animate-fading" title="Spatial Joining and Mapping of Data" src="SpatialMap.png" style="width:95%">
+  <img class="mySlides w3-animate-fading" title="Quick Data Aggregation" src="DataAgg.png" style="width:95%">
+  <img class="mySlides w3-animate-fading" title="Extensive Resume" src="ResumeImage.png" style="width:95%">
+  <img class="mySlides w3-animate-fading" title="Master's Thesis on Real Estate Investor Effects on Elementary Students" src="Thesis.png" style="width:95%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
   </div>
 
 <script>
